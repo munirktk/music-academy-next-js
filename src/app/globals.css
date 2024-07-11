@@ -15,16 +15,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #000000; /* Dark background color */
+  color: #ffffff; /* Optional: Set text color to white for better readability */
 }
+ 
 
 @layer utilities {
   .text-balance {
