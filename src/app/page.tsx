@@ -1,7 +1,11 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
+import HeroSection from "@/components/HeroSection";
+
 export default function Home() {
   return (
-    <main className="min-h-screen p-24 bg-black/[0.96] antialised bg-grid-white/[0.22]">
-      <div className="items-center">chai aur code</div>
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.22]"> 
+      <HeroSection/>
+      <FeaturedCourses/>
     </main>
   );
 }
